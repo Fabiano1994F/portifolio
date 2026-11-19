@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Fabiano Santos</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <script src="components/navbar.js" defer></script>
+    <script src="components/header-section.js" defer></script>
+    <script src="components/about-section.js" defer></script>
+    <script src="components/project-card.js" defer></script>
+    <script src="components/contato-section.js" defer></script>
+    <script src="components/github-projects.js" defer></script>
+    <script src="components/curriculo-section.js" defer></script>
+</head>
+
+<body>
+
+    <div class="particulas"></div>
+
+    <nav-bar></nav-bar>
+    <header-section></header-section>
+    <about-section></about-section>
+    <curriculo-section></curriculo-section>
+
+    <section id="tecnologias" class="tecnologias">
+        <h2 class="projetos-titulo">Tecnologias & Skills</h2>
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML 5"
+                    width="50">
+                <span>HTML 5</span>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS 3"
+                    width="50">
+                <span>CSS 3</span>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="JavaScript" width="50">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"
+                    width="50">
+                <span>Python</span>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js"
+                    width="50" style="background: white; border-radius: 50%;">
+                <span>Next.js</span>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg"
+                    alt="Supabase" width="50">
+                <span>Supabase & SQL</span>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                    alt="Git" width="50">
+                <span>Git</span>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    alt="GitHub" width="50">
+                <span>GitHub</span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+
+            <project-card img="img/projeto 1.jpg" title="Landing Page Fone de Ouvido"
+                desc="Landing page moderna de fone de ouvido sem fio."
+                deploy="https://fabiano1994f.github.io/Landing-Page-Headphones/"
+                github="https://github.com/Fabiano1994F/Landing-Page-Headphones"></project-card>
+
+            <project-card img="img/Barberaria-premium.jpeg" title="Barbearia Premium"
+                desc="Projeto para a Barbearia Premium, com design elegante e responsivo."
+                deploy="https://barbearia-premium-q3wz.vercel.app/"
+                github="https://github.com/Fabiano1994F/barbearia-premium"></project-card>
+
+            <project-card img="img/carros.jpeg" title="Landing Page para Loja de Carros"
+                desc="Landing page automotiva para a TOP CARS." 
+                deploy="https://fabiano1994f.github.io/Loja-de-Carros/"
+                github="https://github.com/Fabiano1994F/Loja-de-Carros"></project-card>
+
+            <project-card img="img/orgmoney.jpeg" title="Org Money"
+                desc="Plataforma de gerenciamento financeiro."
+                deploy="https://org-money.vercel.app/login?next=%2Flogout"
+                github="https://github.com/Fabiano1994F/Org-Money"></project-card>
+
+            <project-card img="img/Cafe.jpg" title="Cafeteria" desc="Website responsivo para a cafeteria Top Café."
+                deploy="https://fabiano1994f.github.io/Landing-Page-Cafeteria/"
+                github="https://github.com/Fabiano1994F/Landing-Page-Cafeteria"></project-card>
+
+            <project-card img="img/Tela-de-login.jpeg" title="Tela de Login" desc="Tela de login moderna e responsiva."
+                deploy="https://fabiano1994f.github.io/Tela-de-Login/"
+                github="https://github.com/Fabiano1994F/Tela-de-Login"></project-card>
+
+            <project-card img="img/pizzaria.jpeg" title="Landing Page para Pizzaria"
+                desc="Landing Page moderna e comppleta para uma Pizzaria."
+                deploy="https://fabiano1994f.github.io/Pizzaria---LandingPage/"
+                github="https://github.com/Fabiano1994F/Pizzaria---LandingPage"></project-card>
+
+            <project-card img="img/advocacia.jpeg" title="Advocacia"
+                desc="Um site completo para um escritório de advocacia, com design profissional e responsivo."
+                deploy="https://fabiano1994f.github.io/Advocacia-/"
+                github="https://github.com/Fabiano1994F/Advocacia-"></project-card>
+
+            <project-card img="img/vidraçaria.jpeg" title="Vidraçaria"
+                desc="Um site completo para uma vidraçaria, com design profissional e responsivo."
+                deploy="https://fabiano1994f.github.io/Site-Para-Vidra-aria/"
+                github="https://github.com/Fabiano1994F/Site-Para-Vidra-aria"></project-card>
+
+            <project-card img="img/listadetarefas.jpeg" title="Lista de Tarefas"
+                desc="Aplicação de lista de tarefas com funcionalidades completas."
+                deploy="https://to-do-list-8bv2.onrender.com/"
+                github="https://github.com/Fabiano1994F/To-Do-List">
+            </project-card>
+
+              <project-card img="img/salao.jpeg" title="Salão de Beleza"
+                desc="Site completo para um salão de beleza, com design elegante e responsivo."
+                deploy="https://fabiano1994f.github.io/LamdingPage-Sal-o/"
+                github="https://github.com/Fabiano1994F/LamdingPage-Sal-o">
+            </project-card>
+
+             <project-card img="img/imobiliaria.jpeg" title="Imobiliária"
+                desc="Site completo para uma imobiliária, com design profissional e responsivo."
+                deploy="https://fabiano1994f.github.io/Imobili-ria/index.html"
+                github="https://github.com/Fabiano1994F/Imobili-ria">
+            </project-card>
+
+             <project-card img="img/techstore.jpeg" title="Tech Store"
+                desc="Site completo para uma loja de tecnologia, com design moderno e responsivo."
+                deploy="https://fabiano1994f.github.io/Tech-Store/"
+                github="https://github.com/Fabiano1994F/Tech-Store">
+            </project-card>
+
+        </div>
+    </section>
+
+    
+
+    <contact-section id="contato"></contact-section>
+    
+</body>
+
+</html>
